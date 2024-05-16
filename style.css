@@ -1,0 +1,138 @@
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 50;
+    padding: 50;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3.4;
+}
+
+header {
+    background-color: #16c94c;
+    color: #5e18b9;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 100;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.about,
+.services,
+.blog,
+.testimonials,
+.contact {
+    padding: 50px;
+}
+
+.testimonials {
+    background-color: #e70b0b;
+}
+
+.footer {
+    background-color: #6c13b4;
+    color: #db1818;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3310b1;
+    color: rgb(20, 219, 110);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hero,
+    .about,
+    .services,
+    .blog,
+    .testimonials,
+    .contact {
+        padding: 30px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+    }
+}
